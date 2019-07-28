@@ -1,0 +1,162 @@
+$success: #c7f282;
+$warning: #f1e681;
+$error: #f08181;
+$charcoal: #ccc;
+
+.flash-success,
+.flash-warning,
+.flash-error {
+  border: 1px solid $charcoal;
+  display: block;
+  left: 25%;
+  padding: 30px;
+  position: fixed;
+  text-align: center;
+  top: 15%;
+  width: 50%;
+  z-index: 1;
+}
+
+.flash-success {
+  background-color: $success;
+}
+
+.flash-warning {
+  background-color: $warning;
+}
+
+.flash-error {
+  background-color: $error;
+}
+
+.auth-form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: 15% auto 0;
+  max-width: 600px;
+
+  h3,
+  input {
+    margin-bottom: 5%;
+  }
+
+  button {
+    align-self: flex-end;
+    max-width: 200px;
+  }
+}
+h1 {
+  color: lightseagreen;
+  font-family: verdana;
+  font-size: 200%;
+  
+}
+select[type=list]{
+  width: 60%;
+
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid lightseagreen;
+  border-radius: 12px;
+  box-sizing: border-box;
+  align-self: center;
+}
+
+button {
+  text-align: center;
+  width: 40%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 40%;
+  margin-left: 30%;
+  margin-bottom: 10%;
+  
+  
+}
+input[type=text] {
+  // width: 20%;
+  // padding: 12px 20px;
+  // margin: 8px 0;
+  // box-sizing: border-box;
+  
+  color: white;
+}
+form {
+  text-align: center;
+  margin-top: 10%;
+}
+body{
+  font-size: 4mm;
+  color: black;
+  // background-image: url(https://miro.medium.com/max/1200/1*_Zqfz3mcyO_Ho1qTyuj_eg.png);opacity:0.6;
+}
+label{
+  font-size: 5mm;
+  color: darkblue
+}
+.l1{
+  margin-right: 5%;
+}
+Alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+}
+
+
+.b1{
+  width: 20%;
+  color: #4CAF50;
+  
+}
+.c1{
+  margin-left: 30%;
+  margin-top: 5%;
+  text-align: center;
+  width: 40%;
+  color: #4CAF50;
+  background-color: lightcyan
+
+ 
+  
+}
+.CD1{
+  text-align: center;
+  
+  margin-left: 10%;
+  margin-top: 10%
+}
+.cb1{
+  background: lightblue;opacity: .7;
+}
+.add{
+  margin-left: 30%;
+  margin-top: 5%;
+  text-align: center;
+  width: 60%;
+  color: #4CAF50;
+  background-color: lightcyan;
+  width: 30%;
+}
+.butadd{
+  text-align: center;
+  width: 30%;
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 40%;
+  margin-left: 30%;
+  margin-bottom: 10%;
+
+}
