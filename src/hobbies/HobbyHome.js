@@ -38,9 +38,10 @@ class HobbyHome extends Component{
     handleSubmit = (event) => {
         event.preventDefault();
         const searchData = this.state.dataForm
-        console.log(searchData)
+        // console.log(searchData)
         home(searchData)
         .then( (response) => {
+            console.log(response)
             const allHobbies = response.data.hobbies;
             this.setState({
                 hobbies:allHobbies
@@ -91,7 +92,7 @@ class HobbyHome extends Component{
                         <Card style={{ width: '18rem' }}>
                             <Card.Body className='cb1'>
                                 <Card.Title>{hobby.hobby}</Card.Title>
-                                <Card.Subtitle className="mb-2 text-muted">Card Subtitle</Card.Subtitle>
+                                <Card.Subtitle className="mb-2 text-muted">{hobby.email}</Card.Subtitle>
                                 <Card.Text>
                                 
                                 </Card.Text>
